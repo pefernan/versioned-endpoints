@@ -23,6 +23,6 @@
 
   <modules>
     <module>versioned-endpoints-quarkus</module>
-    <!--module>versioned-endpoints-springboot</module-->
+    <module>versioned-endpoints-springboot</module>
   </modules>
 </project>
