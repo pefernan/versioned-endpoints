@@ -1,6 +1,7 @@
 # Versioned Endpoints test (Quarkus)
 
 ## Running the example
+
  ```shell
  mvn clean package quarkus:dev
  ```
@@ -8,6 +9,7 @@
 ## Commands
 
 - Post to `/hello` `v1`
+
 ```shell
 curl -X 'POST' \
   'http://localhost:8080/hello' \
@@ -23,6 +25,7 @@ curl -X 'POST' \
 ```
 
 - Post to `/hello` `v2`
+
 ```shell
 ❯ curl -X 'POST' \
   'http://localhost:8080/hello' \

@@ -1,7 +1,11 @@
 package org.acme.v1;
 
 public class V1Person {
-private String name;
+
+    private String name;
+
+    public V1Person() {
+    }
 
     public String getName() {
         return name;
